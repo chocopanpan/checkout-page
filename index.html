@@ -8,16 +8,16 @@
     <h1>Checkout</h1>
     <section>
         <h2>Your Cart</h2>
-        <img src="https://images.thdstatic.com/productImages/57962e24-f933-46dc-993c-c81f79fee44d/svn/forhauz-garden-carts-hg-1199-fw-grey-64_1000.jpg" alt="gray foldable portable wagon">
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="a partially turned Rubix cube">
     </section>
     <section>
         <h2>Payment Information</h2>
         <form>
-            <label for="card-name">Credit Card Name</label>
-            <input type="card-name" id="card-name" name="card-name" contenteditable aria-required="true">
-            <label for="credit-name">Credit Card Number</label>
-            <input type="card-number" id="card-number" name="card-number" contenteditable aria-required="true">
-            <input type="submit">
+            <label id="card-name">Credit Card Name</label>
+            <input role="textbox" id="card-name" name="card-name" contenteditable aria-labelledby="card-name" aria-required="true">
+            <label id="card-number">Credit Card Number</label>
+            <input role="textbox" id="card-number" name="card-number" contenteditable aria-labelledby="card-number" aria-required="true">
+            <input type="submit" value="submit">
         </form>
     </section>
 </body>
