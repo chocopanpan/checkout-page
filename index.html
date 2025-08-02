@@ -5,21 +5,27 @@
     <title>Checkout Page</title>
 </head>
 <body>
-    <!--Create Shopping Card data page-->
     <h1>Checkout</h1>
     <section>
         <h2>Your Cart</h2>
         <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="a partially turned Rubix cube">
     </section>
     <section>
-        <!--Incorporate name section maybe?-->
         <h2>Payment Information</h2>
         <form>
-            <label id="card-name">Credit Card Name</label>
-            <input role="textbox" id="card-name" name="card-name" contenteditable aria-labelledby="card-name" aria-required="true">
-            <label id="card-number">Credit Card Number</label>
-            <input role="textbox" id="card-number" name="card-number" contenteditable aria-labelledby="card-number" aria-required="true">
-            <input type="submit" value="submit">
+            <label for="card-names">Credit Card Name</label>
+            <input role="textbox"
+  contenteditable
+  aria-labelledby="card-name"
+  aria-required="true"
+  id="card-name" name="card-name" required>
+            <label for="card-numbers">Credit Card Number</label>
+            <input role="textbox"
+  contenteditable
+  aria-labelledby="card-number"
+  aria-required="true"
+  id="card-number" name="card-number" required>
+            <input type="submit" value="Submit Order">
         </form>
     </section>
 </body>
